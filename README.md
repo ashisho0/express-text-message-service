@@ -1,11 +1,11 @@
 # Text Message Marketing Campaign Micro-Service
 
-This project implements a serverless text message marketing campaign micro-service on AWS. It uses AWS services like Lambda, API Gateway, SQS, and Step Functions for orchestration.
+This project implements a traditional text message marketing campaign micro-service built on express. It uses RabbitMQ to queue the messages.
 
 ## Project Structure
 
 ```bash
-serverless-text-message-service/
+express-text-message-service/
 │
 ├── controllers/
 ├── helpers/
@@ -24,7 +24,7 @@ serverless-text-message-service/
 ### Step 1: Clone repo and setup
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ashisho0/express-text-message-service.git
 cd express-text-message-service
 npm i
 ```
